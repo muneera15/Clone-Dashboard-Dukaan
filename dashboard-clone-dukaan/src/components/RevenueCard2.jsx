@@ -3,9 +3,9 @@ export const RevenueCard2 = ({
     amount,
     orderCount
 })=>{
-    return <div className="bg-white rounded-[8px] shadow-md p-5 min-w-[300px]">
+    return <div className="bg-white rounded-[8px] shadow-md p-5 min-w-[300px] h-fit">
         <div className=" flex justify-center text-gray-700 flex-col">
-            <div className="flex gap-3">
+            <div className="flex ">
             <div>{title}</div>
             <div className=" flex justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-5">

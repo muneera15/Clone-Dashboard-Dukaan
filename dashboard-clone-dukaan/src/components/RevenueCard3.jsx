@@ -2,7 +2,7 @@ export const RevenueCard3 = ({
     title,
     amount
 })=>{
-    return <div className="bg-white rounded-[8px] shadow-md p-5 min-w-[300px] bg-">
+    return <div className="bg-white rounded-[8px] shadow-md p-5 min-w-[300px] h-fit">
         <div className=" flex justify-center text-gray-700 flex-col">
             <div className="flex gap-3">
             <div>{title}</div>
