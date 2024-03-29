@@ -6,6 +6,7 @@ import {RevenueCard1} from "./components/RevenueCard1.jsx"
 import { RevenueCard2 } from "./components/RevenueCard2.jsx"
 import { RevenueCard3 } from './components/RevenueCard3.jsx'
 import { ButtonsBar } from './components/ButtonsBar.jsx'
+import { Header } from './components/Header.jsx'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
     // <RevenueCard3 title={"Amount Pending"} amount={"23,92,312.19"}/>
     // </div>
     <div>
-      <ButtonsBar/>
+      {/* <ButtonsBar/> */}
+      <Header/>
     </div>
   )
 }
