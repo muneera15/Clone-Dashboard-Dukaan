@@ -1,5 +1,5 @@
 export const ButtonsBar=()=>{
-return <nav className="bg-[#1e2640] w-[224px] flex flex-col justify-between items-center h-screen">
+return <nav className="bg-[#1e2640] w-[224px] flex flex-col justify-between items-center h-screen fixed lg:sticky">
     <div className="flex flex-col gap-[24px] items-center relative top-[16px]">
         <div className="flex w-[192px] gap-[12px] items-center justify-center">
             <div>

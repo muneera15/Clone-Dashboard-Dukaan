@@ -1,5 +1,5 @@
 export const Header = () =>{
-    return <div className="flex justify-between sm:px-8 px-4  py-3 w-[calc(100vw-224px) sm:gap-4 gap-2 h-[64px] items-center border-b border-[#d9d9d9] sticky top-0 bg-[#ffffff]]">
+    return <div className="flex justify-between sm:px-8 px-4  py-3 w-[calc(100vw-224px)] sm:gap-4 gap-2 h-[64px] items-center border-b border-[#d9d9d9] sticky top-0 bg-[#ffffff]">
     <div className="flex gap-2 sm:gap-4 items-center sm:flex-grow">
         <h2 className="text-xl text-[#1a181e] font-medium ">Payouts</h2>
     <span className="flex items-center text-[#4d4d4d] gap-[6px]">

@@ -5,7 +5,7 @@ export const RevenueCard1 = ({
     date,
     time
 })=>{
-    return <div className="bg-blue-700 hover:bg-blue-900 rounded-[8px] min-w-[300px] h-fit">
+    return <div className="bg-blue-700 hover:bg-blue-900 rounded-[8px] min-w-[300px] flex-grow">
         <div className=" flex justify-center text-white p-5 flex-col">
             <div className="flex ">
             <div>{title}</div>
