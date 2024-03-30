@@ -10,6 +10,9 @@ export default {
         blue:{
           700: "#146eb4",
           900: "#0e4f82"
+        },
+        gray:{
+          700: "#4d4d4d"
         }
       }
     },
