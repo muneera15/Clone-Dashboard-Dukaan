@@ -5,7 +5,7 @@ import { Header } from './Header'
 import { ButtonsBar } from './ButtonsBar'
 import { Table } from './Table'
 export const Main = ()=>{
-    return <div className='flex'>
+    return <div className='flex relative'>
         <ButtonsBar/>
         <div className='w-full'>
         <Header/>

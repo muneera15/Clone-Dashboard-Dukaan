@@ -1,5 +1,5 @@
 export const ButtonsBar=()=>{
-return <nav className="bg-[#1e2640] w-[224px] flex flex-col justify-between items-center h-screen fixed lg:sticky">
+return <nav className="bg-[#1e2640] top-0 bottom-0 flex flex-col justify-between opacity-0 lg:max-w-[224px] lg:opacity-[100] items-center h-[100dvh] w-full fixed lg:sticky">
     <div className="flex flex-col gap-[24px] items-center relative top-[16px]">
         <div className="flex w-[192px] gap-[12px] items-center justify-center">
             <div>
@@ -15,7 +15,7 @@ return <nav className="bg-[#1e2640] w-[224px] flex flex-col justify-between item
                 </svg>
             </div>
         </div>
-<div className="flex flex-col gap-[4px] w-[208px] ">
+<div className="flex flex-col gap-[4px] cursor-pointer w-[208px] ">
 <article className="flex items-center gap-[12px] px-[16px] py-[8px] rounded-[4px] hover:bg-white/10 hover:cursor-pointer-group">
          <svg xmlns="http://www.w3.org/2000/svg" className="flex justify-center items-center" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
