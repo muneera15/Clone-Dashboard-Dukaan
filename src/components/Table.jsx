@@ -24,7 +24,7 @@ return(
                       </td>
                       <td className="text-gray-700 text-[15px] px-3 py-[10px]">{order.transactionId}</td>
                       <td className="text-gray-700 text-[15px] px-3 py-[10px]">{order.RefundDate}</td>
-                      <td className="text-gray-700 text-[15px] px-3 pl-20 py-[10px] ">{order.orderAmount}</td>
+                      <td className="text-gray-700 text-[15px] px-3 py-[10px] ">{order.orderAmount}</td>
                   </tr>  
                     ))}
                 </tbody>
