@@ -1,5 +1,5 @@
 export const ButtonsBar=()=>{
-return <nav className="bg-[#1e2640] top-0 bottom-0 left-0 flex flex-col justify-between opacity-0 lg:max-w-[224px] lg:opacity-[100] items-center h-[100dvh] w-full fixed lg:sticky">
+return <nav className="bg-[#1e2640] top-0 z-0 left-0 flex flex-col justify-between opacity-0 lg:max-w-[224px] lg:opacity-[100] items-center h-[100dvh] w-full fixed lg:sticky">
     <div className="flex flex-col gap-[24px] items-center relative top-[16px]">
         <div className="flex w-[192px] gap-[12px] items-center justify-center">
             <div>
