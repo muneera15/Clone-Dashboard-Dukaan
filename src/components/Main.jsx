@@ -4,6 +4,7 @@ import { RevenueCard3 } from './RevenueCard3'
 import { Header } from './Header'
 import { ButtonsBar } from './ButtonsBar'
 import { Table } from './Table'
+import { RecoilRoot } from 'recoil'
 export const Main = ()=>{
     return <div className='flex relative'>
         <ButtonsBar/>
@@ -53,9 +54,9 @@ export const Main = ()=>{
             </button>
            </div>
            </div>
-           <div>
-            <Table/>
-           </div>
+            <RecoilRoot>
+                <div><Table/></div>
+                </RecoilRoot>
                 </div>
             </div>
         </section>
